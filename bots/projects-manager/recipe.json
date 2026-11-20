@@ -1,0 +1,54 @@
+{
+  "listing": {
+    "categories": [
+      "From Grok Bot Team",
+      "Engineering"
+    ],
+    "category": "From Grok Bot Team",
+    "createdAtMs": "1788284584998",
+    "creator": {
+      "handles": {
+        "x": "ericzakariasson"
+      },
+      "name": "Eric Zakariasson",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/632a54d5-8979-413a-b388-48fe88b2d2d3.jpg"
+    },
+    "defaultAvatar": {
+      "color": "magenta",
+      "shape": "teardrop"
+    },
+    "description": "Runs your team's projects from Notion: one row per project, a channel per project, and tasks your specialist bots claim. You decide, agents execute, and it never does the specialist work itself.",
+    "name": "Projects Manager",
+    "shareId": "AZKaQOsjrAa51Nb4xvTur",
+    "slug": "projects-manager",
+    "updatedAtMs": "1788418518353"
+  },
+  "memory": [],
+  "plugins": [
+    {
+      "description": "Notion Skills + Notion MCP server packaged as a Cursor plugin.",
+      "name": "Notion",
+      "pluginId": "404"
+    },
+    {
+      "description": "Slack MCP server. Search channels, send messages, and perform other Slack actions through MCP-compatible clients.",
+      "name": "Slack",
+      "pluginId": "674"
+    }
+  ],
+  "profile": {
+    "avatarColor": "magenta",
+    "avatarShape": "teardrop",
+    "description": "Runs your team's projects from Notion: one row per project, a channel per project, and tasks your specialist bots claim. You decide, agents execute, and it never does the specialist work itself.",
+    "name": "Projects Manager",
+    "title": "Projects Manager"
+  },
+  "routines": [],
+  "skills": [
+    {
+      "contentFile": "skills/grok-bot-project-ops.md",
+      "description": "Use this when creating or running a Grok Bot project: Notion Projects and Tasks, staffing, sidebar Projects placement, bots claiming work, and pinging the user when blocked. Every Project and Task row must have a page icon. Task Blocked is a Status value. Use Note for the question or context.",
+      "name": "Grok Bot project ops"
+    }
+  ]
+}

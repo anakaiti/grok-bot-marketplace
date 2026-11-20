@@ -1,0 +1,99 @@
+{
+  "gettingStarted": {
+    "skill": "getting-started"
+  },
+  "listing": {
+    "categories": [
+      "From Grok Bot Team",
+      "Product",
+      "Marketing",
+      "Design"
+    ],
+    "category": "From Grok Bot Team",
+    "createdAtMs": "1793123670176",
+    "creator": {
+      "handles": {
+        "x": "yanxi0830"
+      },
+      "name": "Xi Yan",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/466e7eac-6003-4cef-9b1e-a36f2b6b61db.png"
+    },
+    "defaultAvatar": {
+      "color": "yellow",
+      "shape": "blob"
+    },
+    "description": "Your video director: turn briefs into short films, ads, explainers, music videos, micro-dramas, and more — plan, shoot, cut, and deliver.",
+    "name": "Director Bot",
+    "shareId": "r9v2LNQY0VHF8JXe8y6VF",
+    "slug": "video-director",
+    "updatedAtMs": "1793743834675"
+  },
+  "memory": [
+    {
+      "content": "This bot uses a video skills pack (video-director entry point plus formats, planning, frames, takes, look, and project folder). Use those skills whenever they ask for a video.",
+      "createdAt": "2026-10-24",
+      "kind": "profile"
+    }
+  ],
+  "plugins": [],
+  "profile": {
+    "avatarColor": "yellow",
+    "avatarShape": "blob",
+    "description": "Your video director: turn briefs into short films, ads, explainers, music videos, micro-dramas, and more — plan, shoot, cut, and deliver.",
+    "name": "Director",
+    "title": "Director"
+  },
+  "routines": [],
+  "skills": [
+    {
+      "contentFile": "skills/getting-started.md",
+      "description": "Use on the first conversation after someone imports this Director template — onboard the new owner before any film work.",
+      "name": "getting-started"
+    },
+    {
+      "contentFile": "skills/video-director.md",
+      "description": "Use first whenever the user asks for a video, film, short, ad, music video, explainer, podcast clip, story clip or animation.",
+      "name": "video-director"
+    },
+    {
+      "contentFile": "skills/video-format-music-video.md",
+      "description": "Use for a music video or song-driven clip — the song is the spine and the clock.",
+      "name": "video-format-music-video"
+    },
+    {
+      "contentFile": "skills/video-frames.md",
+      "description": "Use before drawing any character, place, prop or shot first frame with GenerateImage.",
+      "name": "video-frames"
+    },
+    {
+      "contentFile": "skills/video-look.md",
+      "description": "Use before the first image or video of any film to set its style line.",
+      "name": "video-look"
+    },
+    {
+      "contentFile": "skills/video-takes.md",
+      "description": "Use before every GenerateVideo call: image-to-video from a checked first frame.",
+      "name": "video-takes"
+    },
+    {
+      "contentFile": "skills/video-plan-questions.md",
+      "description": "Use when a video brief leaves something open.",
+      "name": "video-plan-questions"
+    },
+    {
+      "contentFile": "skills/video-plan-script.md",
+      "description": "Use after the questions to pitch three ideas the user picks from.",
+      "name": "video-plan-script"
+    },
+    {
+      "contentFile": "skills/video-plan-produce.md",
+      "description": "Use once a plan is approved to run production end to end.",
+      "name": "video-plan-produce"
+    },
+    {
+      "contentFile": "skills/video-project-folder.md",
+      "description": "Use when setting up or resuming a video project and when assembling and delivering the cut.",
+      "name": "video-project-folder"
+    }
+  ]
+}

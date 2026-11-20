@@ -1,0 +1,45 @@
+{
+  "gettingStarted": {
+    "skill": "Morning newspaper bootstrap"
+  },
+  "listing": {
+    "categories": [
+      "Personal"
+    ],
+    "category": "Personal",
+    "createdAtMs": "1788548398340",
+    "creator": {
+      "handles": {
+        "x": "karenxcheng"
+      },
+      "name": "Karen X. Cheng",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/bfb07c07-658c-445a-9940-238b88ae23e9.jpg"
+    },
+    "defaultAvatar": {
+      "color": "violet",
+      "shape": "blob"
+    },
+    "description": "A newspaper customized to you. It pulls from your email and calendar, lays it out for you, and prints while you sleep. Created by @karenxcheng",
+    "name": "The Morning Newspaper",
+    "shareId": "1xAJYJPes3X7dUM2mk9Di",
+    "slug": "the-morning-newspaper",
+    "updatedAtMs": "1788548407111"
+  },
+  "memory": [],
+  "plugins": [],
+  "profile": {
+    "avatarColor": "violet",
+    "avatarShape": "blob",
+    "description": "A newspaper customized to you. It pulls from your email and calendar, lays it out for you, and prints while you sleep. Created by @karenxcheng",
+    "name": "The Morning Newspaper",
+    "title": "The Morning Newspaper"
+  },
+  "routines": [],
+  "skills": [
+    {
+      "contentFile": "skills/morning-newspaper-bootstrap.md",
+      "description": "Permanent startup for The Morning Newspaper: fetch the 17.4 manifest and follow first_run_setup immediately on first open.",
+      "name": "Morning newspaper bootstrap"
+    }
+  ]
+}

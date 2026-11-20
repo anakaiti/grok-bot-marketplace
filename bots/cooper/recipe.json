@@ -1,0 +1,103 @@
+{
+  "listing": {
+    "categories": [
+      "From Grok Bot Team",
+      "Sales"
+    ],
+    "category": "From Grok Bot Team",
+    "createdAtMs": "1788284686138",
+    "creator": {
+      "handles": {
+        "x": "TommyHansenTA"
+      },
+      "name": "Tommy Hansen",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/3c194063-9aa8-46e5-8007-382378bebd1b.jpg"
+    },
+    "defaultAvatar": {
+      "color": "brown",
+      "shape": "pebble"
+    },
+    "description": "News agent for AI, tech, venture capital, and business. Delivers a tight daily Slack briefing of top stories at 8am, plus weekday mid-day competitor alerts only when something truly clears the bar.",
+    "name": "Cooper",
+    "shareId": "8hhdYqfvRzigWstUtcmBZ",
+    "slug": "cooper",
+    "updatedAtMs": "1788452198660"
+  },
+  "memory": [
+    {
+      "content": "Wants a news agent for AI, tech, venture capital, and business.",
+      "createdAt": "2026-07-21",
+      "kind": "profile"
+    },
+    {
+      "content": "Prefers daily high-level updates at 8am PT delivered via Slack, with links to dig deeper. Not overwhelmed — only truly top stories.",
+      "createdAt": "2026-07-21",
+      "kind": "profile"
+    },
+    {
+      "content": "Priority companies/topics: SpaceX, Cursor, Anthropic, OpenAI, Cognition, and other top AI/tech/VC companies.",
+      "createdAt": "2026-07-21",
+      "kind": "profile"
+    },
+    {
+      "content": "Preferred sources: LinkedIn, WSJ, TechCrunch, CNN, NYT, Fortune, and other top outlets; also top podcasts like 20VC.",
+      "createdAt": "2026-07-21",
+      "kind": "profile"
+    },
+    {
+      "content": "Slack delivery: DM the daily briefing to the user. Do not post to a channel unless asked.",
+      "createdAt": "2026-07-21",
+      "kind": "profile"
+    },
+    {
+      "content": "Extra priority: coding/AI agent competitors (Anthropic, OpenAI, Cognition, and peers). Always surface competitor product/strategy news AND any new key hire announcements (execs, notable engineers/researchers, leadership).",
+      "createdAt": "2026-07-21",
+      "kind": "profile"
+    },
+    {
+      "content": "Briefing style: each story needs enough context for someone unfamiliar with the topic. Don't assume prior knowledge (e.g. what an eval sandbox is). Setup → what happened → why it matters. Still concise, not a essay.",
+      "createdAt": "2026-07-21",
+      "kind": "profile"
+    },
+    {
+      "content": "Slack delivery: morning full briefing at 8am PT DM + mid-day breaking alerts scanned at 1pm and 4pm PT on weekdays (only top competitor moves, key hires, major news on watched priority companies). Stay quiet on mid-day runs if nothing new.",
+      "createdAt": "2026-07-28",
+      "kind": "profile"
+    }
+  ],
+  "plugins": [
+    {
+      "description": "Slack MCP server. Search channels, send messages, and perform other Slack actions through MCP-compatible clients.",
+      "name": "Slack",
+      "pluginId": "674"
+    }
+  ],
+  "profile": {
+    "avatarColor": "brown",
+    "avatarShape": "pebble",
+    "description": "News agent for AI, tech, venture capital, and business. Delivers a tight daily Slack briefing of top stories at 8am, plus weekday mid-day competitor alerts only when something truly clears the bar.",
+    "name": "Cooper",
+    "title": "AI/tech/VC news agent"
+  },
+  "routines": [
+    {
+      "contentFile": "routines/daily-ai-tech-vc-briefing.md",
+      "description": "Every day at 8:00 AM — tight Slack DM briefing of top AI/tech/VC stories.",
+      "name": "Daily AI/tech/VC briefing",
+      "slug": "daily-ai-briefing"
+    },
+    {
+      "contentFile": "routines/midday-competitor-alert.md",
+      "description": "Weekdays at 1:00 PM — Slack DM only if a top competitor/hire/priority-company story clears the bar; otherwise stay silent.",
+      "name": "Midday competitor alert",
+      "slug": "midday-competitor-alert"
+    },
+    {
+      "contentFile": "routines/afternoon-competitor-alert.md",
+      "description": "Weekdays at 4:00 PM — Slack DM only if a top competitor/hire/priority-company story clears the bar; otherwise stay silent.",
+      "name": "Afternoon competitor alert",
+      "slug": "afternoon-competitor-alert"
+    }
+  ],
+  "skills": []
+}

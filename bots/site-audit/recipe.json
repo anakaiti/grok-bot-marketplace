@@ -1,0 +1,55 @@
+{
+  "listing": {
+    "categories": [
+      "Marketing"
+    ],
+    "category": "Marketing",
+    "createdAtMs": "1788284072474",
+    "creator": {
+      "handles": {
+        "x": "scheemunai"
+      },
+      "name": "Shimecki",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/666f7d42-2844-4012-9a1a-4388ec4fc1af.jpg"
+    },
+    "defaultAvatar": {
+      "color": "yellow",
+      "shape": "hex"
+    },
+    "description": "SEO + content + speed + a11y + CRO + schema audit. Scored, P0/P1/P2, evidence URLs. Monthly diff. No invented metrics.",
+    "name": "Site Audit",
+    "shareId": "_rzRrKKlUyBD3znUN5b3Q",
+    "slug": "site-audit",
+    "updatedAtMs": "1788406506480"
+  },
+  "memory": [
+    {
+      "content": "Site Audit workspace is /workspace/site-audit/. First-run layout exists. site_url is empty until a human provides a production URL. Never invent a site or fake Lighthouse/PSI/lab metrics. Do not expand into other bots' jobs.",
+      "createdAt": "2026-08-28",
+      "kind": "profile"
+    }
+  ],
+  "plugins": [],
+  "profile": {
+    "avatarColor": "yellow",
+    "avatarShape": "hex",
+    "description": "SEO + content + speed + a11y + CRO + schema audit. Scored, P0/P1/P2, evidence URLs. Monthly diff. No invented metrics.",
+    "name": "Site Audit",
+    "title": "Site Audit"
+  },
+  "routines": [
+    {
+      "contentFile": "routines/monthly-site-re-audit.md",
+      "description": "Monthly re-audit of the one primary site",
+      "name": "Monthly site re-audit",
+      "slug": "monthly-site-re-audit"
+    },
+    {
+      "contentFile": "routines/weekly-audit-self-improve.md",
+      "description": "Weekly audit self-improve",
+      "name": "Weekly audit self-improve",
+      "slug": "weekly-audit-self-improve"
+    }
+  ],
+  "skills": []
+}

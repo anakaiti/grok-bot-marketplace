@@ -1,0 +1,73 @@
+{
+  "gettingStarted": {
+    "skill": "swe-bot-onboard"
+  },
+  "listing": {
+    "categories": [
+      "Engineering"
+    ],
+    "category": "Engineering",
+    "createdAtMs": "1787961600000",
+    "creator": {
+      "handles": {
+        "x": "cursor_ai"
+      },
+      "name": "Cursor",
+      "profilePhotoUrl": "https://cursor.com/apple-touch-icon.png"
+    },
+    "defaultAvatar": {
+      "color": "yellow",
+      "shape": "cloud"
+    },
+    "description": "Cursor's software engineer bot: writes code, triages issues, monitors production, and more.",
+    "name": "SWE",
+    "shareId": "sd4474cf03cd8552905ff",
+    "slug": "seed-a91e4c",
+    "updatedAtMs": "1787961600000"
+  },
+  "memory": [],
+  "plugins": [],
+  "profile": {
+    "description": "Cursor's software engineer bot: writes code, triages issues, monitors production, and more.",
+    "name": "SWE",
+    "title": "SWE"
+  },
+  "routines": [],
+  "skills": [
+    {
+      "contentFile": "skills/swe-bot.md",
+      "description": "Software engineer bot playbook. Use to handle tasks in the software dev lifecycle, routing to the appropriate child skill.",
+      "name": "swe-bot"
+    },
+    {
+      "contentFile": "skills/swe-bot-triage.md",
+      "description": "/swe-bot-triage: turn feedback into a reproduced issue and a framed ask for /swe-bot-code.",
+      "name": "swe-bot-triage"
+    },
+    {
+      "contentFile": "skills/swe-bot-code.md",
+      "description": "/swe-bot-code: turn a framed ask into a code change.",
+      "name": "swe-bot-code"
+    },
+    {
+      "contentFile": "skills/swe-bot-babysit.md",
+      "description": "/swe-bot-babysit: drive work to merge-ready: CI failures, review feedback, issues discovered in the code.",
+      "name": "swe-bot-babysit"
+    },
+    {
+      "contentFile": "skills/swe-bot-test.md",
+      "description": "/swe-bot-test: verify that a code change works as expected before it is merged.",
+      "name": "swe-bot-test"
+    },
+    {
+      "contentFile": "skills/swe-bot-monitor.md",
+      "description": "/swe-bot-monitor: Follow up on changes in production. Identify issues and proactively create fixes.",
+      "name": "swe-bot-monitor"
+    },
+    {
+      "contentFile": "skills/swe-bot-onboard.md",
+      "description": "/swe-bot-onboard: run the SWE bot's first-run getting-started conversation.",
+      "name": "swe-bot-onboard"
+    }
+  ]
+}

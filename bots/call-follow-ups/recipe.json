@@ -1,0 +1,152 @@
+{
+  "gettingStarted": {
+    "skill": "getting-started"
+  },
+  "listing": {
+    "categories": [
+      "From Grok Bot Team",
+      "Sales"
+    ],
+    "category": "From Grok Bot Team",
+    "createdAtMs": "1788420224953",
+    "creator": {
+      "handles": {
+        "x": "danielbrill_"
+      },
+      "name": "Daniel Brill",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/b27ce95a-6549-4d7c-8336-b11aa6d5e36b.jpg"
+    },
+    "defaultAvatar": {
+      "color": "cyan",
+      "shape": "capsule"
+    },
+    "description": "Turns each recorded call into a follow-up email in your voice, a next-steps note, and the CRM updates, including the qualification fields your team runs on. Watches Gong and Granola for new calls, and nothing sends or saves without your yes.",
+    "name": "Call Follow-Ups",
+    "shareId": "estQ8HWdKqhheDNmOGjcy",
+    "slug": "call-follow-ups",
+    "updatedAtMs": "1789075861723"
+  },
+  "memory": [
+    {
+      "content": "This bot drafts only. Follow-up emails go to Drafts, CRM changes are shown as a diff first, and nothing sends or saves without the owner saying yes in the same conversation.",
+      "kind": "profile"
+    },
+    {
+      "content": "Follow-ups are action-oriented: next steps with owners and dates, the resources that were promised, and access or trial details. Recap is kept to one line.",
+      "kind": "profile"
+    },
+    {
+      "content": "Quotes attributed to a customer come verbatim from the transcript. Nothing a customer did not say is attributed to them.",
+      "kind": "profile"
+    }
+  ],
+  "plugins": [
+    {
+      "description": "Finished calls, summaries, and transcripts. Granola covers the meetings it did not record.",
+      "name": "Gong",
+      "pluginId": "47725204"
+    },
+    {
+      "description": "Transcript source for meetings your recorder did not capture. Works alongside Gong or on its own.",
+      "name": "Granola",
+      "pluginId": "5609"
+    },
+    {
+      "description": "Where next steps, stage, close date, and new contacts are proposed. Connect the one CRM you use.",
+      "name": "Salesforce",
+      "pluginId": "47725205"
+    },
+    {
+      "description": "CRM alternative to Salesforce.",
+      "name": "HubSpot",
+      "pluginId": "49339689"
+    },
+    {
+      "description": "CRM alternative to Salesforce.",
+      "name": "Attio",
+      "pluginId": "62459236"
+    },
+    {
+      "description": "Learns your voice from sent mail and saves follow-ups as drafts. Use Outlook instead on Microsoft 365.",
+      "name": "Gmail",
+      "pluginId": "45893410"
+    },
+    {
+      "description": "Email alternative for Microsoft 365 users.",
+      "name": "Outlook",
+      "pluginId": "57302029"
+    },
+    {
+      "description": "Matches a call to its meeting and attendees when the recorder's participant list is thin.",
+      "name": "Google Calendar",
+      "pluginId": "45893411"
+    },
+    {
+      "description": "Deliver the post-call pack as a DM.",
+      "name": "Slack",
+      "pluginId": "674"
+    },
+    {
+      "description": "Keep post-call notes and the open promises where your team already looks.",
+      "name": "Notion",
+      "pluginId": "404"
+    },
+    {
+      "description": "Turn a commitment from a call into a ticket, drafted for you to approve.",
+      "name": "Linear",
+      "pluginId": "512"
+    },
+    {
+      "description": "Pull account numbers before a call when your team keeps them in a warehouse.",
+      "name": "Hex",
+      "pluginId": "651"
+    }
+  ],
+  "profile": {
+    "avatarColor": "cyan",
+    "avatarShape": "capsule",
+    "description": "Turns each recorded call into a follow-up email in your voice, a next-steps note, and the CRM updates, including the qualification fields your team runs on. Watches Gong and Granola for new calls, and nothing sends or saves without your yes.",
+    "name": "Call Follow-Ups",
+    "title": "Call Follow-Ups"
+  },
+  "routines": [
+    {
+      "contentFile": "routines/new-call-watch.md",
+      "description": "Every 30 minutes on weekdays, find calls the owner hosted that finished since the last run and stage the post-call pack for approval.",
+      "name": "New call watch",
+      "slug": "new-call-watch"
+    }
+  ],
+  "skills": [
+    {
+      "contentFile": "skills/crm-update-proposal.md",
+      "description": "Proposes CRM field changes after a call as a before/after diff (stage, dates, next step, contacts, qualification fields) and applies them only after the owner approves.",
+      "name": "crm-update-proposal"
+    },
+    {
+      "contentFile": "skills/getting-started.md",
+      "description": "First conversation with a new owner. Connects the call recorder, CRM, and email, sets up the call watch, learns the owner's voice and CRM conventions, and processes one recent call as a demo.",
+      "name": "getting-started"
+    },
+    {
+      "contentFile": "skills/next-steps-note.md",
+      "description": "Writes the 50-word next-steps note for the CRM in the team's format: current state, next step with owner and date, risk, solution.",
+      "name": "next-steps-note"
+    },
+    {
+      "contentFile": "skills/promise-tracker.md",
+      "description": "Lists every commitment made on a call by either side with an owner and a due date, and keeps the open ones until they are closed.",
+      "name": "promise-tracker"
+    },
+    {
+      "contentFile": "skills/recap-email.md",
+      "description": "Drafts the action-oriented follow-up email for one call in the owner's voice and saves it to Drafts. Never sends.",
+      "name": "recap-email"
+    },
+    {
+      "contentFile": "skills/voice-profile.md",
+      "description": "Learns how the owner writes to customers from their sent email and keeps that voice as profile memory so every draft sounds like them.",
+      "name": "voice-profile"
+    }
+  ]
+}

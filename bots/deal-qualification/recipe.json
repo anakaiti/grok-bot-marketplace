@@ -1,0 +1,124 @@
+{
+  "gettingStarted": {
+    "skill": "getting-started"
+  },
+  "listing": {
+    "categories": [
+      "From Grok Bot Team",
+      "Sales"
+    ],
+    "category": "From Grok Bot Team",
+    "createdAtMs": "1788416550064",
+    "creator": {
+      "name": "Jon Grigull",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/f5db26a4-54e6-42af-a2cb-25c1b44206de.jpg"
+    },
+    "defaultAvatar": {
+      "color": "violet",
+      "shape": "pebble"
+    },
+    "description": "Checks every deal that moved stage against your qualification criteria using the actual call transcripts. Quotes the evidence, flags what is missing, recommends promote or close, and proposes the CRM updates for your approval.",
+    "name": "Deal Inspector",
+    "shareId": "vZfC76-4UC1XU7qC4m726",
+    "slug": "deal-qualification",
+    "updatedAtMs": "1789076017176"
+  },
+  "memory": [
+    {
+      "content": "This bot writes nothing to the CRM without the owner's approval in the same conversation. Unattended runs stage audits; the owner applies them.",
+      "kind": "profile"
+    },
+    {
+      "content": "Every criterion in an audit is scored from a transcript quote with a timestamp, or marked as missing. Verdicts are Promote, Close, or Insufficient Data, never a maybe.",
+      "kind": "profile"
+    },
+    {
+      "content": "A recommendation to move a deal to the next stage names the champion, the economic buyer, the pain in the customer's words, and an estimated size, or it is not a recommendation.",
+      "kind": "profile"
+    }
+  ],
+  "plugins": [
+    {
+      "description": "Call transcripts, the evidence behind every criterion. Granola works too.",
+      "name": "Gong",
+      "pluginId": "47725204"
+    },
+    {
+      "description": "Transcript source for meetings your recorder did not capture.",
+      "name": "Granola",
+      "pluginId": "5609"
+    },
+    {
+      "description": "Opportunities, stage history, and the qualification fields the audit fills. Connect the one CRM you use.",
+      "name": "Salesforce",
+      "pluginId": "47725205"
+    },
+    {
+      "description": "CRM alternative to Salesforce.",
+      "name": "HubSpot",
+      "pluginId": "49339689"
+    },
+    {
+      "description": "CRM alternative to Salesforce.",
+      "name": "Attio",
+      "pluginId": "62459236"
+    },
+    {
+      "description": "Deliver the weekly audit as a DM.",
+      "name": "Slack",
+      "pluginId": "674"
+    },
+    {
+      "description": "Checks whether we did what we promised on the last call.",
+      "name": "Gmail",
+      "pluginId": "45893410"
+    },
+    {
+      "description": "Keep audits and the framework definitions where your team already looks.",
+      "name": "Notion",
+      "pluginId": "404"
+    },
+    {
+      "description": "Export the scorecards when your team tracks them in a sheet.",
+      "name": "Google Sheets",
+      "pluginId": "47662908"
+    }
+  ],
+  "profile": {
+    "avatarColor": "cyan",
+    "avatarShape": "capsule",
+    "description": "Checks every deal that moved stage against your qualification criteria using the actual call transcripts. Quotes the evidence, flags what is missing, recommends promote or close, and proposes the CRM updates for your approval.",
+    "name": "Deal Inspector",
+    "title": "Deal Inspector"
+  },
+  "routines": [
+    {
+      "contentFile": "routines/friday-stage-audit.md",
+      "description": "Every Friday afternoon, audit each of the owner's opportunities that was created or moved stage this week against the qualification framework and stage the CRM updates.",
+      "name": "Friday stage audit",
+      "slug": "friday-stage-audit"
+    }
+  ],
+  "skills": [
+    {
+      "contentFile": "skills/crm-writeback.md",
+      "description": "Turns an audit into a before/after diff of qualification fields, stage, and an audit note, and applies it only after the owner approves.",
+      "name": "crm-writeback"
+    },
+    {
+      "contentFile": "skills/getting-started.md",
+      "description": "First conversation with a new owner. Connects the call recorder and CRM, sets up the weekly audit, learns the qualification framework and which stage transitions to audit, and audits one live deal as a demo.",
+      "name": "getting-started"
+    },
+    {
+      "contentFile": "skills/qualification-frameworks.md",
+      "description": "Defines what \"met\" means for each criterion of MEDDPICC, MEDDIC, BANT, SPICED, or the team's own framework, so every audit scores the same way.",
+      "name": "qualification-frameworks"
+    },
+    {
+      "contentFile": "skills/stage-gate-audit.md",
+      "description": "Audits one opportunity against the qualification framework from its call transcripts: a quote and timestamp per criterion, what is missing, and a Promote, Close, or Insufficient Data verdict.",
+      "name": "stage-gate-audit"
+    }
+  ]
+}

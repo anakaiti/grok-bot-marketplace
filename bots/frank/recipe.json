@@ -1,0 +1,158 @@
+{
+  "listing": {
+    "categories": [
+      "From Grok Bot Team",
+      "Operations"
+    ],
+    "category": "From Grok Bot Team",
+    "createdAtMs": "1788285102445",
+    "creator": {
+      "handles": {
+        "x": "tashatweetss"
+      },
+      "name": "Natasha Kuo",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/b67914fc-5694-4966-83f2-9c1c0b426a14.png"
+    },
+    "defaultAvatar": {
+      "color": "gray",
+      "shape": "arch"
+    },
+    "description": "EA chief-of-staff bot for exec support: conference rooms, interview prep, leadership outreach, Slack channel inventories, sheet↔calendar checks, and birthday/anniversary calendar loads.",
+    "name": "Executive Assistant",
+    "shareId": "_DnP777DCicZpaTtm9_h5",
+    "slug": "frank",
+    "updatedAtMs": "1788452194508"
+  },
+  "memory": [
+    {
+      "content": "The user is an executive assistant.",
+      "createdAt": "2026-07-09",
+      "kind": "profile"
+    },
+    {
+      "content": "The user is in the Pacific time zone (PT/PST).",
+      "createdAt": "2026-07-10",
+      "kind": "profile"
+    },
+    {
+      "content": "Preferred format for exec conference-room rundowns: markdown table, full day chronological, BOLD meetings that need a room. Columns: time | meeting | booked | preferred-room-A | preferred-room-B. Use ✅ free / ❌ taken / ⚠️ partial for the room columns.",
+      "createdAt": "2026-07-09",
+      "kind": "log"
+    },
+    {
+      "content": "Exec conference-room booking logic: (1) prefer small preferred rooms to avoid hogging scarce large rooms; (2) cluster back-to-back meetings into ONE room; a new cluster is fine in a different room if there is a >=1hr break; (3) NEVER make the exec switch floors when there is no break between calls; (4) when a large call already has a big room booked, book the meeting right after in a small room on the SAME floor.",
+      "createdAt": "2026-07-09",
+      "kind": "log"
+    },
+    {
+      "content": "Room-rundown automation should always be 2 BUSINESS DAYS ahead (Mon→Wed, Tue→Thu, Wed→Fri, Thu→next Mon, Fri→next Tue). Runs weekdays only.",
+      "createdAt": "2026-07-10",
+      "kind": "log"
+    },
+    {
+      "content": "Room-rundown checks FIRST if the exec is WFH/traveling/OOO that day (all-day event, WFH, traveling, working-location=Home, PTO); if so post a one-line remote note and skip the chart.",
+      "createdAt": "2026-07-15",
+      "kind": "log"
+    },
+    {
+      "content": "The supported exec prefers taking meetings from conference rooms instead of their desk.",
+      "createdAt": "2026-07-10",
+      "kind": "log"
+    },
+    {
+      "content": "Leadership-outreach Slack channel posts requests for execs to reach out; the EA reacts ✅ to ones already sent. Track per-exec sent vs outstanding in a Notion or sheet tracker.",
+      "createdAt": "2026-07-09",
+      "kind": "log"
+    },
+    {
+      "content": "When drafting emails or messages on the user's behalf, never use em dashes; they look AI-generated.",
+      "createdAt": "2026-07-22",
+      "kind": "log"
+    },
+    {
+      "content": "Never send email or Slack on the user's behalf without them reading and approving the exact draft first. Draft only until they say to send.",
+      "createdAt": "2026-08-25",
+      "kind": "log"
+    },
+    {
+      "content": "Prefer Google Calendar and Gmail MCP connectors over the box browser when available; browser SSO can be flaky.",
+      "createdAt": "2026-07-24",
+      "kind": "log"
+    },
+    {
+      "content": "Prefer request sheets sorted by recency, with the newest requests at the top.",
+      "createdAt": "2026-08-26",
+      "kind": "log"
+    },
+    {
+      "content": "Prefer emoji tapbacks instead of a text reply when no real response is needed (thanks, got it, casual ack).",
+      "createdAt": "2026-08-13",
+      "kind": "log"
+    },
+    {
+      "content": "For exec room bookings, prefer keeping large staff/forecast/leadership calls out of the smallest preferred rooms; keep those small rooms for 1:1s and smaller meetings when possible.",
+      "createdAt": "2026-08-19",
+      "kind": "log"
+    }
+  ],
+  "plugins": [
+    {
+      "description": "Search events and schedule meetings.",
+      "name": "Google Calendar",
+      "pluginId": "45893411"
+    },
+    {
+      "description": "Search, read, draft, and manage email.",
+      "name": "Gmail",
+      "pluginId": "45893410"
+    },
+    {
+      "description": "Slack MCP server. Search channels, send messages, and perform other Slack actions through MCP-compatible clients.",
+      "name": "Slack",
+      "pluginId": "674"
+    },
+    {
+      "description": "Notion Skills + Notion MCP server packaged as a Cursor plugin.",
+      "name": "Notion",
+      "pluginId": "404"
+    },
+    {
+      "name": "Google Sheets",
+      "pluginId": "47662908"
+    }
+  ],
+  "profile": {
+    "avatarColor": "gray",
+    "avatarShape": "arch",
+    "description": "EA chief-of-staff bot for exec support: conference rooms, interview prep, leadership outreach, Slack channel inventories, sheet↔calendar checks, and birthday/anniversary calendar loads.",
+    "name": "frank",
+    "title": "chief of staff"
+  },
+  "routines": [
+    {
+      "contentFile": "routines/exec-interview-prep-reminder.md",
+      "description": "Weekdays: check today's interviews vs a Notion prep doc.",
+      "name": "Exec interview-prep reminder",
+      "slug": "andrew-interview-prep"
+    },
+    {
+      "contentFile": "routines/exec-conference-room-rundown-2-business-days-ahead.md",
+      "description": "Weekday afternoon: room chart for two business days out.",
+      "name": "Exec conference-room rundown (2 business days ahead)",
+      "slug": "andrew-room-rundown"
+    },
+    {
+      "contentFile": "routines/exec-same-day-conference-room-check.md",
+      "description": "Weekday morning: same-day room chart for overnight changes.",
+      "name": "Exec same-day conference-room check",
+      "slug": "andrew-same-day-conference-room-check"
+    },
+    {
+      "contentFile": "routines/weekly-leadership-outreach-check.md",
+      "description": "Friday: Slack outreach channel vs tracker for one exec.",
+      "name": "Weekly leadership-outreach check",
+      "slug": "andrew-trumpet-weekly"
+    }
+  ],
+  "skills": []
+}

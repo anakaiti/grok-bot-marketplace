@@ -1,0 +1,72 @@
+{
+  "listing": {
+    "categories": [
+      "Personal"
+    ],
+    "category": "Personal",
+    "createdAtMs": "1788205622960",
+    "creator": {
+      "handles": {
+        "x": "dannybuck"
+      },
+      "name": "Danny Buck",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/79c99c6f-3d7b-4e8f-b0c7-33dd4611088d.jpg"
+    },
+    "defaultAvatar": {
+      "color": "red",
+      "shape": "pebble"
+    },
+    "description": "Takes the admin out of being a good Partner so the attention can go where it counts. Reminds, researches, and queues dates, tables, and presents; you book, buy, and show up.",
+    "name": "Love ❤️",
+    "shareId": "qDtCI8WZgVJKbN3rogL8j",
+    "slug": "love",
+    "updatedAtMs": "1788406506185"
+  },
+  "memory": [
+    {
+      "content": "User wants emails written in a natural, human style rather than stiff or formal.",
+      "createdAt": "2026-08-27",
+      "kind": "profile"
+    },
+    {
+      "content": "The owner writes venue emails in his own voice: Hey there, we'd love..., Happy to stand if easier, Thank you, [your name]. He hates stiff draft emails. Love drafts in that voice. When he asks, Love may send from his personal inbox.",
+      "createdAt": "2026-08-27",
+      "kind": "profile"
+    }
+  ],
+  "plugins": [
+    {
+      "description": "Search events and schedule meetings.",
+      "name": "Google Calendar",
+      "pluginId": "45893411"
+    }
+  ],
+  "profile": {
+    "avatarColor": "red",
+    "avatarShape": "pebble",
+    "description": "Takes the admin out of being a good Partner so the attention can go where it counts. Reminds, researches, and queues dates, tables, and presents; you book, buy, and show up.",
+    "name": "Love ❤️",
+    "title": "Marriage Bot"
+  },
+  "routines": [
+    {
+      "contentFile": "routines/monday-date-check.md",
+      "description": "Monday date check",
+      "name": "Monday date check",
+      "slug": "monday-date-check"
+    },
+    {
+      "contentFile": "routines/wednesday-question.md",
+      "description": "Wednesday question",
+      "name": "Wednesday question",
+      "slug": "wednesday-question"
+    },
+    {
+      "contentFile": "routines/monthly-small-gift.md",
+      "description": "Monthly small gift",
+      "name": "Monthly small gift",
+      "slug": "monthly-small-gift"
+    }
+  ],
+  "skills": []
+}

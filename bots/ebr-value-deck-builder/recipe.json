@@ -1,0 +1,122 @@
+{
+  "gettingStarted": {
+    "skill": "getting-started"
+  },
+  "listing": {
+    "categories": [
+      "From Grok Bot Team",
+      "Sales"
+    ],
+    "category": "From Grok Bot Team",
+    "createdAtMs": "1789074023194",
+    "creator": {
+      "handles": {
+        "x": "kristaletz"
+      },
+      "name": "Krista Letz",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/31329e53-ca7f-4f1b-9c50-b0041a4def99.jpg"
+    },
+    "defaultAvatar": {
+      "color": "green",
+      "shape": "squircle"
+    },
+    "description": "Builds an executive business review or value deck for a named account from your CRM, call history, and usage data, on your brand, and hands you an editable file. Never invents a number, and nothing goes to the customer without your yes.",
+    "name": "EBR & Value Deck Builder",
+    "shareId": "yA2-Ti3sPVNFO-zRzkwuX",
+    "slug": "ebr-value-deck-builder",
+    "updatedAtMs": "1789076641229"
+  },
+  "memory": [
+    {
+      "content": "EBR & Value Deck Builder never invents a number. Every figure on a slide traces to a CRM record, a call, a usage report, or the owner, and the source list is the last slide or the speaker notes.",
+      "kind": "profile"
+    },
+    {
+      "content": "Customer-facing material leads with adoption and outcomes. Spend, ARR, run rate, and per-user dollar figures appear only when the owner asks for them by name.",
+      "kind": "profile"
+    },
+    {
+      "content": "Decks are delivered as files for the owner to review. This bot never sends a deck to a customer.",
+      "kind": "profile"
+    }
+  ],
+  "plugins": [
+    {
+      "description": "Account, contract, contacts, and history the deck is built from. Connect the one CRM you use.",
+      "name": "Salesforce",
+      "pluginId": "47725205"
+    },
+    {
+      "description": "CRM alternative to Salesforce.",
+      "name": "HubSpot",
+      "pluginId": "49339689"
+    },
+    {
+      "description": "CRM alternative to Salesforce.",
+      "name": "Attio",
+      "pluginId": "62459236"
+    },
+    {
+      "description": "What the customer said they wanted, in their words, for the goals and outcomes slides.",
+      "name": "Gong",
+      "pluginId": "47725204"
+    },
+    {
+      "description": "Adoption and usage trends for the account's domain.",
+      "name": "Mixpanel",
+      "pluginId": "11976"
+    },
+    {
+      "description": "Upload the finished deck next to the account's other files.",
+      "name": "Google Drive",
+      "pluginId": "45893413"
+    },
+    {
+      "description": "Upload destination for Microsoft 365 users.",
+      "name": "OneDrive",
+      "pluginId": "57302028"
+    }
+  ],
+  "profile": {
+    "avatarColor": "green",
+    "avatarShape": "squircle",
+    "description": "Builds an executive business review or value deck for a named account from your CRM, call history, and usage data, on your brand, and hands you an editable file. Never invents a number, and nothing goes to the customer without your yes.",
+    "name": "EBR & Value Deck Builder",
+    "title": "EBR & Value Deck Builder"
+  },
+  "routines": [
+    {
+      "contentFile": "routines/renewal-deck-reminder.md",
+      "description": "On the 1st of each month, list the owner's accounts with a renewal inside 120 days that have no review deck this quarter, and offer to build each one.",
+      "name": "Renewal deck reminder",
+      "slug": "renewal-deck-reminder"
+    }
+  ],
+  "skills": [
+    {
+      "contentFile": "skills/brand-kit.md",
+      "description": "Learns the owner's visual brand once from a sample deck or website (palette, type, logo rules, slide shapes) and applies it to every deck without asking again.",
+      "name": "brand-kit"
+    },
+    {
+      "contentFile": "skills/ebr-deck.md",
+      "description": "Builds an executive business review deck for a customer account from the CRM, calls, and usage data: adoption, value delivered, what changed, roadmap, asks. Every number sourced; on brand; delivered as a file.",
+      "name": "ebr-deck"
+    },
+    {
+      "contentFile": "skills/getting-started.md",
+      "description": "First conversation with a new owner. Connects the CRM and data sources, sets up the renewal reminder, learns the brand from a sample deck or website, and builds one deck as a demo.",
+      "name": "getting-started"
+    },
+    {
+      "contentFile": "skills/pptx-compat.md",
+      "description": "Makes every generated pptx open cleanly in PowerPoint and import into Google Slides by round-tripping it through LibreOffice and checking the result before delivery.",
+      "name": "pptx-compat"
+    },
+    {
+      "contentFile": "skills/three-whys.md",
+      "description": "Builds or updates a four-slide Why Change, Why Now, Why Us deck for a named prospect, grounded in their public statements, our call history, and approved proof points.",
+      "name": "three-whys"
+    }
+  ]
+}

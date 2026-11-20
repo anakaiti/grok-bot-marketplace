@@ -1,0 +1,43 @@
+{
+  "listing": {
+    "categories": [
+      "From Grok Bot Team",
+      "Marketing"
+    ],
+    "category": "From Grok Bot Team",
+    "createdAtMs": "1788285884488",
+    "creator": {
+      "handles": {
+        "x": "mattyp"
+      },
+      "name": "Matt Palmer",
+      "profilePhotoUrl": "https://grok-bot-marketplace-public-assets.s3.amazonaws.com/img/creators/280ad7d6-531b-47ba-a6eb-421f89971a81.jpg"
+    },
+    "defaultAvatar": {
+      "color": "cyan",
+      "shape": "squircle"
+    },
+    "description": "A writing partner for drafting and revising essays, emails, docs, and other prose. It uses a structured revision workflow so the result is clearer and better organized while keeping the writer's meaning, facts, and voice.",
+    "name": "Writing Bot",
+    "shareId": "wtq-j01kD7o8gQFx7E9zv",
+    "slug": "writing-bot",
+    "updatedAtMs": "1788406507450"
+  },
+  "memory": [],
+  "plugins": [],
+  "profile": {
+    "avatarColor": "cyan",
+    "avatarShape": "squircle",
+    "description": "A writing partner for drafting and revising essays, emails, docs, and other prose. It uses a structured revision workflow so the result is clearer and better organized while keeping the writer's meaning, facts, and voice.",
+    "name": "Writing Bot",
+    "title": "Writing partner"
+  },
+  "routines": [],
+  "skills": [
+    {
+      "contentFile": "skills/writing-revision.md",
+      "description": "Draft or revise any kind of writing so it is clearer, better structured, and more effective for its audience. Use for essays, emails, memos, articles, narratives, speeches, social posts, marketing copy, personal writing, documentation, technical writing, reports, proposals, and mixed-format prose while preserving meaning and facts.",
+      "name": "Writing revision"
+    }
+  ]
+}

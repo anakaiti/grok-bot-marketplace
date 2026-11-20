@@ -1,0 +1,1545 @@
+{
+  "bots": {
+    "account-book": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Anoop Baliga",
+      "name": "Account Research Desk",
+      "recipe": "bots/account-book/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/account-book"
+    },
+    "account-research": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Stefan Markarian",
+      "name": "GTM Account Research",
+      "recipe": "bots/account-research/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/account-research"
+    },
+    "ai-search-visibility": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Adam Tanguay",
+      "name": "AI Search Visibility",
+      "recipe": "bots/ai-search-visibility/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/ai-search-visibility"
+    },
+    "alfred": {
+      "categories": [
+        "Operations"
+      ],
+      "creator": "Robin Delta",
+      "name": "Alfred",
+      "recipe": "bots/alfred/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/alfred"
+    },
+    "apple-search-ads-review": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Chris Everett",
+      "name": "Apple Search Ads Review",
+      "recipe": "bots/apple-search-ads-review/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/apple-search-ads-review"
+    },
+    "best-video-editor": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "X Freeze",
+      "name": "Video Edit Desk",
+      "recipe": "bots/best-video-editor/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/best-video-editor"
+    },
+    "call-follow-ups": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Daniel Brill",
+      "name": "Call Follow-Ups",
+      "recipe": "bots/call-follow-ups/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/call-follow-ups"
+    },
+    "chief-health": {
+      "categories": [
+        "Personal"
+      ],
+      "creator": "AJAC",
+      "name": "Chief Health",
+      "recipe": "bots/chief-health/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/chief-health"
+    },
+    "clip-bot": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "This Week in AI",
+      "name": "Clip Bot",
+      "recipe": "bots/clip-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/clip-bot"
+    },
+    "company-docs-q-a": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Anoop Baliga",
+      "name": "Company Docs Q&A",
+      "recipe": "bots/company-docs-q-a/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/company-docs-q-a"
+    },
+    "competitor-watching": {
+      "categories": [
+        "Product"
+      ],
+      "creator": "Shimecki",
+      "name": "Competitor Watch",
+      "recipe": "bots/competitor-watching/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/competitor-watching"
+    },
+    "cooper": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Tommy Hansen",
+      "name": "Cooper",
+      "recipe": "bots/cooper/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/cooper"
+    },
+    "credit-card-max": {
+      "categories": [
+        "Personal"
+      ],
+      "creator": "Trevin Chow",
+      "name": "Credit Card Max",
+      "recipe": "bots/credit-card-max/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/credit-card-max"
+    },
+    "critiquito": {
+      "categories": [
+        "Design",
+        "From Grok Bot Team"
+      ],
+      "creator": "Manuel Muñoz Solera",
+      "name": "Critiquito: Design Critique",
+      "recipe": "bots/critiquito/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/critiquito"
+    },
+    "customer-call-coach": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Anoop Baliga",
+      "name": "Customer Call Coach & Assistant",
+      "recipe": "bots/customer-call-coach/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/customer-call-coach"
+    },
+    "customer-question-drafter": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Anoop Baliga",
+      "name": "Product Support Inbox Assistant",
+      "recipe": "bots/customer-question-drafter/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/customer-question-drafter"
+    },
+    "customer-stories": {
+      "categories": [
+        "Sales"
+      ],
+      "creator": "Anoop Baliga",
+      "name": "Customer Proof Desk",
+      "recipe": "bots/customer-stories/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/customer-stories"
+    },
+    "dan-lanning": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Jenna Nanpei",
+      "name": "Dan Lanning",
+      "recipe": "bots/dan-lanning/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/dan-lanning"
+    },
+    "deal-hunting": {
+      "categories": [
+        "Personal"
+      ],
+      "creator": "Shimecki",
+      "name": "Deal Hunting",
+      "recipe": "bots/deal-hunting/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/deal-hunting"
+    },
+    "deal-qualification": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Jon Grigull",
+      "name": "Deal Inspector",
+      "recipe": "bots/deal-qualification/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/deal-qualification"
+    },
+    "dial-bot": {
+      "categories": [
+        "From Grok Bot Team",
+        "Personal"
+      ],
+      "creator": "Matt Palmer",
+      "name": "dial bot",
+      "recipe": "bots/dial-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/dial-bot"
+    },
+    "distro-bot": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Shub Gaur",
+      "name": "Distro Bot",
+      "recipe": "bots/distro-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/distro-bot"
+    },
+    "dr-eggbot-v2": {
+      "categories": [
+        "From Grok Bot Team"
+      ],
+      "creator": "Lauren Tan",
+      "name": "dr eggbot",
+      "recipe": "bots/dr-eggbot-v2/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/dr-eggbot-v2"
+    },
+    "ebr-value-deck-builder": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Krista Letz",
+      "name": "EBR & Value Deck Builder",
+      "recipe": "bots/ebr-value-deck-builder/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/ebr-value-deck-builder"
+    },
+    "echo": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Krista Letz",
+      "name": "Meeting Recap Deck",
+      "recipe": "bots/echo/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/echo"
+    },
+    "engineer-bot": {
+      "categories": [
+        "Engineering",
+        "From Grok Bot Team"
+      ],
+      "creator": "Lingxi Li",
+      "name": "Lingxi's Engineer Bot",
+      "recipe": "bots/engineer-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/engineer-bot"
+    },
+    "engineering-lead": {
+      "categories": [
+        "Engineering"
+      ],
+      "creator": "Lauren Tan",
+      "name": "Engineering Lead",
+      "recipe": "bots/engineering-lead/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/engineering-lead"
+    },
+    "event-producer": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Jenna Nanpei",
+      "name": "Event Producer",
+      "recipe": "bots/event-producer/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/event-producer"
+    },
+    "event-request-desk": {
+      "categories": [
+        "From Grok Bot Team",
+        "Operations"
+      ],
+      "creator": "Emma Weyrauch",
+      "name": "Event Request Desk",
+      "recipe": "bots/event-request-desk/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/event-request-desk"
+    },
+    "figma-bro": {
+      "categories": [
+        "Design",
+        "From Grok Bot Team"
+      ],
+      "creator": "John Bai",
+      "name": "figma bro",
+      "recipe": "bots/figma-bro/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/figma-bro"
+    },
+    "flora": {
+      "categories": [
+        "Personal"
+      ],
+      "creator": "Rich Silver",
+      "name": "Flora",
+      "recipe": "bots/flora/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/flora"
+    },
+    "follow-through-agent": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Jon Grigull",
+      "name": "GTM Loop Closer",
+      "recipe": "bots/follow-through-agent/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/follow-through-agent"
+    },
+    "frank": {
+      "categories": [
+        "From Grok Bot Team",
+        "Operations"
+      ],
+      "creator": "Natasha Kuo",
+      "name": "frank",
+      "recipe": "bots/frank/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/frank"
+    },
+    "fuse": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Miguel Cruz",
+      "name": "Ad Spend Watch",
+      "recipe": "bots/fuse/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/fuse"
+    },
+    "haggle-bot": {
+      "categories": [
+        "From Grok Bot Team"
+      ],
+      "creator": "Daniel Gartshein",
+      "name": "Haggle Bot",
+      "recipe": "bots/haggle-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/haggle-bot"
+    },
+    "hiring-activity-monitor": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Simon Lackowski",
+      "name": "Hiring Signals",
+      "recipe": "bots/hiring-activity-monitor/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/hiring-activity-monitor"
+    },
+    "home-robots": {
+      "categories": [
+        "Personal"
+      ],
+      "creator": "Sawyer Merritt",
+      "name": "Home robots",
+      "recipe": "bots/home-robots/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/home-robots"
+    },
+    "human-copywriter": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "Massimo De Luisa",
+      "name": "Copy Humanizer",
+      "recipe": "bots/human-copywriter/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/human-copywriter"
+    },
+    "image-gen-bot": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Matt Palmer",
+      "name": "Stills & Clips Desk",
+      "recipe": "bots/image-gen-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/image-gen-bot"
+    },
+    "imogen": {
+      "categories": [
+        "Design"
+      ],
+      "creator": "Kent C. Dodds",
+      "name": "Imogen",
+      "recipe": "bots/imogen/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/imogen"
+    },
+    "import-bot": {
+      "categories": [
+        "From Grok Bot Team",
+        "Personal"
+      ],
+      "creator": "Shub Gaur",
+      "name": "Import Bot",
+      "recipe": "bots/import-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/import-bot"
+    },
+    "landing-page-copy-critic": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "Austen Allred",
+      "name": "Landing Page Copy Critic",
+      "recipe": "bots/landing-page-copy-critic/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/landing-page-copy-critic"
+    },
+    "last30days": {
+      "categories": [
+        "Marketing",
+        "Product"
+      ],
+      "creator": "Matt Van Horn",
+      "name": "last30days",
+      "recipe": "bots/last30days/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/last30days"
+    },
+    "leadsworth": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Miguel Cruz",
+      "name": "Lead Pipeline Desk",
+      "recipe": "bots/leadsworth/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/leadsworth"
+    },
+    "love": {
+      "categories": [
+        "Personal"
+      ],
+      "creator": "Danny Buck",
+      "name": "Love ❤️",
+      "recipe": "bots/love/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/love"
+    },
+    "luma-pages": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Jenna Nanpei",
+      "name": "Luma Pages",
+      "recipe": "bots/luma-pages/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/luma-pages"
+    },
+    "market-researcher": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "Josh Kim",
+      "name": "Market Researcher",
+      "recipe": "bots/market-researcher/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/market-researcher"
+    },
+    "marketing-analyst": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "Josh Kim",
+      "name": "Marketing Analyst",
+      "recipe": "bots/marketing-analyst/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/marketing-analyst"
+    },
+    "marketing-project-manager": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "Josh Kim",
+      "name": "Project Manager",
+      "recipe": "bots/marketing-project-manager/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/marketing-project-manager"
+    },
+    "mr-toms": {
+      "categories": [
+        "From Grok Bot Team",
+        "Recruiting & People"
+      ],
+      "creator": "Tommy Hansen",
+      "name": "Recruiting Coordinator",
+      "recipe": "bots/mr-toms/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/mr-toms"
+    },
+    "nightly-audit-engineer": {
+      "categories": [
+        "Engineering",
+        "From Grok Bot Team"
+      ],
+      "creator": "Lingxi Li",
+      "name": "Nightly Audit Engineer",
+      "recipe": "bots/nightly-audit-engineer/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/nightly-audit-engineer"
+    },
+    "nyc-parent": {
+      "categories": [
+        "Personal"
+      ],
+      "creator": "Dennison",
+      "name": "NYC Parent",
+      "recipe": "bots/nyc-parent/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/nyc-parent"
+    },
+    "office-ops-desk": {
+      "categories": [
+        "From Grok Bot Team",
+        "Operations"
+      ],
+      "creator": "Erika Cabrera",
+      "name": "Office Ops Desk",
+      "recipe": "bots/office-ops-desk/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/office-ops-desk"
+    },
+    "overheard": {
+      "creator": "Lenny Rachitsky",
+      "name": "Overheard",
+      "recipe": "bots/overheard/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/overheard"
+    },
+    "performance-marketer": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "Josh Kim",
+      "name": "Performance Marketer",
+      "recipe": "bots/performance-marketer/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/performance-marketer"
+    },
+    "pfp-bot": {
+      "categories": [
+        "From Grok Bot Team",
+        "Personal"
+      ],
+      "creator": "Shub Gaur",
+      "name": "Pfp Bot",
+      "recipe": "bots/pfp-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/pfp-bot"
+    },
+    "pg": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Krista Letz",
+      "name": "Outbound Prospecting",
+      "recipe": "bots/pg/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/pg"
+    },
+    "pipeline-health-and-forecast": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Krista Letz",
+      "name": "Pipeline Pulse",
+      "recipe": "bots/pipeline-health-and-forecast/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/pipeline-health-and-forecast"
+    },
+    "pitch-deck-coach": {
+      "categories": [
+        "Sales"
+      ],
+      "creator": "Hiten Shah",
+      "name": "Pitch Deck Coach",
+      "recipe": "bots/pitch-deck-coach/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/pitch-deck-coach"
+    },
+    "pm-bot": {
+      "categories": [
+        "Product"
+      ],
+      "creator": "Ulysses Ng",
+      "name": "PM bot",
+      "recipe": "bots/pm-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/pm-bot"
+    },
+    "product-idea-stress-test": {
+      "categories": [
+        "Product"
+      ],
+      "creator": "Hiten Shah",
+      "name": "Product Idea Stress Test",
+      "recipe": "bots/product-idea-stress-test/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/product-idea-stress-test"
+    },
+    "product-marketer": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "Josh Kim",
+      "name": "Product Marketer",
+      "recipe": "bots/product-marketer/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/product-marketer"
+    },
+    "projects-manager": {
+      "categories": [
+        "Engineering",
+        "From Grok Bot Team"
+      ],
+      "creator": "Eric Zakariasson",
+      "name": "Projects Manager",
+      "recipe": "bots/projects-manager/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/projects-manager"
+    },
+    "prospector": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Caro Scalercio",
+      "name": "GTM Prospecting",
+      "recipe": "bots/prospector/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/prospector"
+    },
+    "proto-bot": {
+      "categories": [
+        "From Grok Bot Team",
+        "Product"
+      ],
+      "creator": "Shub Gaur",
+      "name": "Proto Bot",
+      "recipe": "bots/proto-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/proto-bot"
+    },
+    "qa-bot": {
+      "categories": [
+        "Engineering"
+      ],
+      "creator": "Ulysses Ng",
+      "name": "QA bot",
+      "recipe": "bots/qa-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/qa-bot"
+    },
+    "researchy": {
+      "categories": [
+        "Engineering"
+      ],
+      "creator": "Farzad",
+      "name": "Researchy",
+      "recipe": "bots/researchy/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/researchy"
+    },
+    "sable-game-art": {
+      "categories": [
+        "Design"
+      ],
+      "creator": "Danny Limanseta",
+      "name": "Game Art Director",
+      "recipe": "bots/sable-game-art/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/sable-game-art"
+    },
+    "sales-call-coach": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Daniel Brill",
+      "name": "Sales Call Coach",
+      "recipe": "bots/sales-call-coach/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/sales-call-coach"
+    },
+    "seed-a91e4c": {
+      "categories": [
+        "Engineering"
+      ],
+      "creator": "Cursor",
+      "name": "SWE",
+      "recipe": "bots/seed-a91e4c/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/seed-a91e4c"
+    },
+    "sell-bot": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Shub Gaur",
+      "name": "Sell Bot",
+      "recipe": "bots/sell-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/sell-bot"
+    },
+    "seo-aeo-desk": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Adam Tanguay",
+      "name": "SEO & AEO Desk",
+      "recipe": "bots/seo-aeo-desk/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/seo-aeo-desk"
+    },
+    "sequencer": {
+      "categories": [
+        "Sales"
+      ],
+      "creator": "Simon Lackowski",
+      "name": "Sequencer",
+      "recipe": "bots/sequencer/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/sequencer"
+    },
+    "sherlock": {
+      "categories": [
+        "From Grok Bot Team",
+        "Recruiting & People"
+      ],
+      "creator": "Tommy Hansen",
+      "name": "Talent Discovery",
+      "recipe": "bots/sherlock/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/sherlock"
+    },
+    "signal-prospector": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Krista Letz",
+      "name": "Signal Prospector",
+      "recipe": "bots/signal-prospector/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/signal-prospector"
+    },
+    "site-audit": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "Shimecki",
+      "name": "Site Audit",
+      "recipe": "bots/site-audit/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/site-audit"
+    },
+    "skippy": {
+      "categories": [
+        "From Grok Bot Team",
+        "Personal"
+      ],
+      "creator": "Matt Palmer",
+      "name": "skippy",
+      "recipe": "bots/skippy/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/skippy"
+    },
+    "stalk-bot": {
+      "categories": [
+        "From Grok Bot Team",
+        "Product"
+      ],
+      "creator": "Shub Gaur",
+      "name": "Stalk Bot",
+      "recipe": "bots/stalk-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/stalk-bot"
+    },
+    "startup-qa-bot": {
+      "categories": [
+        "From Grok Bot Team",
+        "Product"
+      ],
+      "creator": "Shub Gaur",
+      "name": "Startup QA Bot",
+      "recipe": "bots/startup-qa-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/startup-qa-bot"
+    },
+    "tally": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Miguel Cruz",
+      "name": "Paid Media Report Desk",
+      "recipe": "bots/tally/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/tally"
+    },
+    "tech-demos": {
+      "categories": [
+        "From Grok Bot Team",
+        "Personal"
+      ],
+      "creator": "Matt Palmer",
+      "name": "Tech Demos",
+      "recipe": "bots/tech-demos/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/tech-demos"
+    },
+    "the-morning-newspaper": {
+      "categories": [
+        "Personal"
+      ],
+      "creator": "Karen X. Cheng",
+      "name": "The Morning Newspaper",
+      "recipe": "bots/the-morning-newspaper/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/the-morning-newspaper"
+    },
+    "tinkabot": {
+      "categories": [
+        "Engineering",
+        "From Grok Bot Team"
+      ],
+      "creator": "Lauren Tan",
+      "name": "tinkabot",
+      "recipe": "bots/tinkabot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/tinkabot"
+    },
+    "tradbot-2": {
+      "creator": "Claire Vo",
+      "name": "Tradbot",
+      "recipe": "bots/tradbot-2/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/tradbot-2"
+    },
+    "video-director": {
+      "categories": [
+        "Design",
+        "From Grok Bot Team",
+        "Marketing",
+        "Product"
+      ],
+      "creator": "Xi Yan",
+      "name": "Director",
+      "recipe": "bots/video-director/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/video-director"
+    },
+    "video-editor": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Ethan Ng",
+      "name": "Video Editor",
+      "recipe": "bots/video-editor/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/video-editor"
+    },
+    "warm-intro-finder": {
+      "categories": [
+        "From Grok Bot Team",
+        "Sales"
+      ],
+      "creator": "Brian Joseph",
+      "name": "GTM Connections",
+      "recipe": "bots/warm-intro-finder/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/warm-intro-finder"
+    },
+    "webby": {
+      "categories": [
+        "Personal"
+      ],
+      "creator": "Farzad",
+      "name": "Webby",
+      "recipe": "bots/webby/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/webby"
+    },
+    "website-ops": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "Josh Kim",
+      "name": "Website Ops",
+      "recipe": "bots/website-ops/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/website-ops"
+    },
+    "writing-bot": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Matt Palmer",
+      "name": "Writing Bot",
+      "recipe": "bots/writing-bot/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/writing-bot"
+    },
+    "wtd": {
+      "categories": [
+        "From Grok Bot Team",
+        "Marketing"
+      ],
+      "creator": "Jenna Nanpei",
+      "name": "WTD",
+      "recipe": "bots/wtd/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/wtd"
+    },
+    "x-brief": {
+      "categories": [
+        "Marketing"
+      ],
+      "creator": "Dan McAteer",
+      "name": "X Brief",
+      "recipe": "bots/x-brief/recipe.json",
+      "source": "https://x.ai/bot/marketplace/bots/x-brief"
+    }
+  },
+  "listed": [
+    "account-book",
+    "account-research",
+    "ai-search-visibility",
+    "alfred",
+    "apple-search-ads-review",
+    "best-video-editor",
+    "call-follow-ups",
+    "chief-health",
+    "clip-bot",
+    "company-docs-q-a",
+    "competitor-watching",
+    "cooper",
+    "credit-card-max",
+    "critiquito",
+    "customer-call-coach",
+    "customer-question-drafter",
+    "customer-stories",
+    "dan-lanning",
+    "deal-hunting",
+    "deal-qualification",
+    "dial-bot",
+    "distro-bot",
+    "dr-eggbot-v2",
+    "ebr-value-deck-builder",
+    "echo",
+    "engineer-bot",
+    "engineering-lead",
+    "event-producer",
+    "event-request-desk",
+    "figma-bro",
+    "flora",
+    "follow-through-agent",
+    "frank",
+    "fuse",
+    "haggle-bot",
+    "hiring-activity-monitor",
+    "home-robots",
+    "human-copywriter",
+    "image-gen-bot",
+    "imogen",
+    "import-bot",
+    "landing-page-copy-critic",
+    "last30days",
+    "leadsworth",
+    "love",
+    "luma-pages",
+    "market-researcher",
+    "marketing-analyst",
+    "marketing-project-manager",
+    "mr-toms",
+    "nightly-audit-engineer",
+    "nyc-parent",
+    "office-ops-desk",
+    "overheard",
+    "performance-marketer",
+    "pfp-bot",
+    "pg",
+    "pipeline-health-and-forecast",
+    "pitch-deck-coach",
+    "pm-bot",
+    "product-idea-stress-test",
+    "product-marketer",
+    "projects-manager",
+    "prospector",
+    "proto-bot",
+    "qa-bot",
+    "researchy",
+    "sable-game-art",
+    "sales-call-coach",
+    "seed-a91e4c",
+    "sell-bot",
+    "seo-aeo-desk",
+    "sequencer",
+    "sherlock",
+    "signal-prospector",
+    "site-audit",
+    "skippy",
+    "stalk-bot",
+    "startup-qa-bot",
+    "tally",
+    "tech-demos",
+    "the-morning-newspaper",
+    "tinkabot",
+    "tradbot-2",
+    "video-director",
+    "video-editor",
+    "warm-intro-finder",
+    "webby",
+    "website-ops",
+    "writing-bot",
+    "wtd",
+    "x-brief"
+  ],
+  "pluginReferences": {
+    "11976": {
+      "bots": [
+        "ebr-value-deck-builder",
+        "signal-prospector"
+      ],
+      "names": [
+        "Mixpanel"
+      ]
+    },
+    "1411": {
+      "bots": [
+        "fuse"
+      ],
+      "names": [
+        "datadog"
+      ]
+    },
+    "32738678": {
+      "bots": [
+        "account-book",
+        "apple-search-ads-review",
+        "leadsworth",
+        "tally"
+      ],
+      "names": [
+        "Databricks SQL"
+      ]
+    },
+    "32766883": {
+      "bots": [
+        "haggle-bot"
+      ],
+      "names": [
+        "Ramp"
+      ]
+    },
+    "404": {
+      "bots": [
+        "account-book",
+        "account-research",
+        "ai-search-visibility",
+        "apple-search-ads-review",
+        "best-video-editor",
+        "call-follow-ups",
+        "clip-bot",
+        "company-docs-q-a",
+        "competitor-watching",
+        "critiquito",
+        "customer-stories",
+        "dan-lanning",
+        "deal-qualification",
+        "echo",
+        "engineer-bot",
+        "event-producer",
+        "event-request-desk",
+        "figma-bro",
+        "follow-through-agent",
+        "frank",
+        "fuse",
+        "haggle-bot",
+        "hiring-activity-monitor",
+        "human-copywriter",
+        "image-gen-bot",
+        "leadsworth",
+        "luma-pages",
+        "marketing-project-manager",
+        "mr-toms",
+        "office-ops-desk",
+        "pg",
+        "pipeline-health-and-forecast",
+        "product-marketer",
+        "projects-manager",
+        "prospector",
+        "sable-game-art",
+        "sales-call-coach",
+        "seo-aeo-desk",
+        "sherlock",
+        "tally",
+        "warm-intro-finder",
+        "wtd",
+        "x-brief"
+      ],
+      "names": [
+        "Notion",
+        "notion-workspace"
+      ]
+    },
+    "45893410": {
+      "bots": [
+        "account-book",
+        "account-research",
+        "apple-search-ads-review",
+        "call-follow-ups",
+        "customer-call-coach",
+        "customer-question-drafter",
+        "customer-stories",
+        "deal-qualification",
+        "distro-bot",
+        "echo",
+        "event-producer",
+        "event-request-desk",
+        "follow-through-agent",
+        "frank",
+        "fuse",
+        "haggle-bot",
+        "human-copywriter",
+        "leadsworth",
+        "marketing-analyst",
+        "mr-toms",
+        "office-ops-desk",
+        "pg",
+        "pipeline-health-and-forecast",
+        "prospector",
+        "sell-bot",
+        "sequencer",
+        "sherlock",
+        "signal-prospector",
+        "stalk-bot",
+        "tally",
+        "tradbot-2",
+        "warm-intro-finder",
+        "wtd"
+      ],
+      "names": [
+        "Gmail"
+      ]
+    },
+    "45893411": {
+      "bots": [
+        "account-book",
+        "account-research",
+        "call-follow-ups",
+        "dan-lanning",
+        "echo",
+        "event-producer",
+        "event-request-desk",
+        "follow-through-agent",
+        "frank",
+        "love",
+        "marketing-project-manager",
+        "mr-toms",
+        "office-ops-desk",
+        "sales-call-coach",
+        "sell-bot",
+        "sequencer",
+        "tradbot-2",
+        "warm-intro-finder"
+      ],
+      "names": [
+        "Google Calendar"
+      ]
+    },
+    "45893413": {
+      "bots": [
+        "account-book",
+        "ebr-value-deck-builder",
+        "event-request-desk",
+        "haggle-bot",
+        "landing-page-copy-critic",
+        "market-researcher",
+        "marketing-analyst",
+        "marketing-project-manager",
+        "performance-marketer",
+        "product-marketer",
+        "video-editor",
+        "website-ops",
+        "wtd"
+      ],
+      "names": [
+        "Google Drive"
+      ]
+    },
+    "45893414": {
+      "bots": [
+        "sell-bot"
+      ],
+      "names": [
+        "Google Sheets"
+      ]
+    },
+    "47662907": {
+      "bots": [
+        "echo"
+      ],
+      "names": [
+        "Google Slides"
+      ]
+    },
+    "47662908": {
+      "bots": [
+        "account-book",
+        "account-research",
+        "ai-search-visibility",
+        "apple-search-ads-review",
+        "deal-qualification",
+        "event-producer",
+        "event-request-desk",
+        "follow-through-agent",
+        "frank",
+        "fuse",
+        "haggle-bot",
+        "hiring-activity-monitor",
+        "leadsworth",
+        "market-researcher",
+        "marketing-analyst",
+        "mr-toms",
+        "office-ops-desk",
+        "performance-marketer",
+        "pg",
+        "pipeline-health-and-forecast",
+        "product-marketer",
+        "prospector",
+        "seo-aeo-desk",
+        "sherlock",
+        "stalk-bot",
+        "tally",
+        "warm-intro-finder"
+      ],
+      "names": [
+        "Google Sheets"
+      ]
+    },
+    "47725204": {
+      "bots": [
+        "call-follow-ups",
+        "deal-qualification",
+        "ebr-value-deck-builder",
+        "echo",
+        "sales-call-coach"
+      ],
+      "names": [
+        "Gong"
+      ]
+    },
+    "47725205": {
+      "bots": [
+        "account-book",
+        "account-research",
+        "call-follow-ups",
+        "deal-qualification",
+        "ebr-value-deck-builder",
+        "follow-through-agent",
+        "hiring-activity-monitor",
+        "leadsworth",
+        "pg",
+        "pipeline-health-and-forecast",
+        "prospector",
+        "sequencer",
+        "signal-prospector",
+        "stalk-bot",
+        "warm-intro-finder"
+      ],
+      "names": [
+        "Salesforce"
+      ]
+    },
+    "48668144": {
+      "bots": [
+        "stalk-bot",
+        "startup-qa-bot"
+      ],
+      "names": [
+        "AgentMail"
+      ]
+    },
+    "48677658": {
+      "bots": [
+        "landing-page-copy-critic",
+        "startup-qa-bot",
+        "website-ops"
+      ],
+      "names": [
+        "GitHub"
+      ]
+    },
+    "49086599": {
+      "bots": [
+        "distro-bot",
+        "market-researcher",
+        "overheard",
+        "pfp-bot",
+        "pg",
+        "product-marketer",
+        "proto-bot",
+        "sell-bot",
+        "signal-prospector",
+        "stalk-bot",
+        "tech-demos",
+        "webby",
+        "x-brief"
+      ],
+      "names": [
+        "X"
+      ]
+    },
+    "49104326": {
+      "bots": [
+        "mr-toms",
+        "sherlock"
+      ],
+      "names": [
+        "Ashby"
+      ]
+    },
+    "49110469": {
+      "bots": [
+        "signal-prospector"
+      ],
+      "names": [
+        "Clay"
+      ]
+    },
+    "49339676": {
+      "bots": [
+        "video-editor"
+      ],
+      "names": [
+        "Remotion"
+      ]
+    },
+    "49339689": {
+      "bots": [
+        "call-follow-ups",
+        "deal-qualification",
+        "ebr-value-deck-builder",
+        "signal-prospector"
+      ],
+      "names": [
+        "HubSpot"
+      ]
+    },
+    "51168001": {
+      "bots": [
+        "ai-search-visibility",
+        "seo-aeo-desk"
+      ],
+      "names": [
+        "Profound"
+      ]
+    },
+    "512": {
+      "bots": [
+        "account-book",
+        "ai-search-visibility",
+        "apple-search-ads-review",
+        "best-video-editor",
+        "call-follow-ups",
+        "clip-bot",
+        "competitor-watching",
+        "critiquito",
+        "customer-stories",
+        "echo",
+        "event-producer",
+        "event-request-desk",
+        "figma-bro",
+        "fuse",
+        "human-copywriter",
+        "image-gen-bot",
+        "leadsworth",
+        "marketing-project-manager",
+        "mr-toms",
+        "office-ops-desk",
+        "pg",
+        "sable-game-art",
+        "sales-call-coach",
+        "seo-aeo-desk",
+        "sherlock",
+        "startup-qa-bot",
+        "tally",
+        "x-brief"
+      ],
+      "names": [
+        "Linear",
+        "linear"
+      ]
+    },
+    "5609": {
+      "bots": [
+        "account-book",
+        "account-research",
+        "call-follow-ups",
+        "customer-call-coach",
+        "customer-question-drafter",
+        "customer-stories",
+        "deal-qualification",
+        "echo",
+        "follow-through-agent",
+        "haggle-bot",
+        "mr-toms",
+        "pipeline-health-and-forecast",
+        "sell-bot"
+      ],
+      "names": [
+        "Granola"
+      ]
+    },
+    "57302028": {
+      "bots": [
+        "ebr-value-deck-builder"
+      ],
+      "names": [
+        "OneDrive"
+      ]
+    },
+    "57302029": {
+      "bots": [
+        "call-follow-ups"
+      ],
+      "names": [
+        "Outlook"
+      ]
+    },
+    "579": {
+      "bots": [
+        "fuse"
+      ],
+      "names": [
+        "sentry"
+      ]
+    },
+    "62459236": {
+      "bots": [
+        "call-follow-ups",
+        "deal-qualification",
+        "ebr-value-deck-builder",
+        "signal-prospector"
+      ],
+      "names": [
+        "Attio"
+      ]
+    },
+    "62459238": {
+      "bots": [
+        "signal-prospector"
+      ],
+      "names": [
+        "Hunter"
+      ]
+    },
+    "649": {
+      "bots": [
+        "landing-page-copy-critic",
+        "qa-bot"
+      ],
+      "names": [
+        "Vercel"
+      ]
+    },
+    "651": {
+      "bots": [
+        "account-book",
+        "ai-search-visibility",
+        "apple-search-ads-review",
+        "call-follow-ups",
+        "customer-stories",
+        "event-request-desk",
+        "fuse",
+        "leadsworth",
+        "seo-aeo-desk",
+        "tally"
+      ],
+      "names": [
+        "Hex",
+        "hex"
+      ]
+    },
+    "657": {
+      "bots": [
+        "best-video-editor",
+        "clip-bot",
+        "critiquito",
+        "customer-stories",
+        "echo",
+        "event-producer",
+        "event-request-desk",
+        "figma-bro",
+        "fuse",
+        "human-copywriter",
+        "image-gen-bot",
+        "mr-toms",
+        "proto-bot",
+        "sable-game-art",
+        "sherlock",
+        "website-ops"
+      ],
+      "names": [
+        "Figma",
+        "figma"
+      ]
+    },
+    "66339841": {
+      "bots": [
+        "sequencer"
+      ],
+      "names": [
+        "Google Sheets"
+      ]
+    },
+    "674": {
+      "bots": [
+        "account-book",
+        "account-research",
+        "ai-search-visibility",
+        "apple-search-ads-review",
+        "best-video-editor",
+        "call-follow-ups",
+        "clip-bot",
+        "company-docs-q-a",
+        "competitor-watching",
+        "cooper",
+        "critiquito",
+        "customer-call-coach",
+        "customer-question-drafter",
+        "customer-stories",
+        "deal-qualification",
+        "echo",
+        "event-producer",
+        "event-request-desk",
+        "figma-bro",
+        "follow-through-agent",
+        "frank",
+        "fuse",
+        "haggle-bot",
+        "hiring-activity-monitor",
+        "human-copywriter",
+        "image-gen-bot",
+        "leadsworth",
+        "market-researcher",
+        "marketing-analyst",
+        "marketing-project-manager",
+        "mr-toms",
+        "office-ops-desk",
+        "overheard",
+        "performance-marketer",
+        "pg",
+        "pipeline-health-and-forecast",
+        "projects-manager",
+        "proto-bot",
+        "sable-game-art",
+        "sales-call-coach",
+        "sell-bot",
+        "seo-aeo-desk",
+        "sequencer",
+        "sherlock",
+        "signal-prospector",
+        "stalk-bot",
+        "tally",
+        "tradbot-2",
+        "warm-intro-finder",
+        "website-ops",
+        "wtd",
+        "x-brief"
+      ],
+      "names": [
+        "Slack",
+        "slack"
+      ]
+    },
+    "9717366": {
+      "bots": [
+        "dr-eggbot-v2",
+        "tinkabot"
+      ],
+      "names": [
+        "pstack"
+      ]
+    }
+  }
+}
